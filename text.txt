@@ -1,6 +1,7 @@
 #include <iostream>
 #include <time.h>
 #define size 25
+//massage
 
 int input_int()
 {
@@ -25,7 +26,8 @@ int main()
 	int arr[size];
 	printf("Введите количество элементов массива: ");
 	int n = input_int();
-
+	
+	printf("Исходный массив\n");
 	srand(time(0));
 	for (int i = 0; i < n; i++)
 		arr[i] = rand() % 20;
